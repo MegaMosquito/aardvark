@@ -2,7 +2,7 @@
 
 This repo contains sample code showing how the [arduino-cli](https://arduino.github.io/arduino-cli/) tool can be used inside a Docker container on a Raspberry Pi to reprogram an Arduino Uno attached to one of its USB ports. This code was written to support [my blog article](https://darlingevil.com/arduinopi2/) aboout this, which covers the topic in more detail.
 
-Note that if you simply want to treat the Arduino as a slave, and not actively reprogram it, I describe a simpler solution solution in [this blog article}(https://darlingevil.com/arduinopi/) using the Firmata code. The code in this repo is for completely reprogramming the Arduino -- i.e., reflashing it -- in the field.
+Note that if you simply want to treat the Arduino as a slave, and not actively reprogram it, I describe a simpler solution solution in [this blog article](https://darlingevil.com/arduinopi/) using the Firmata code. The code in this repo is for completely reprogramming the Arduino -- i.e., reflashing it -- in the field.
 
 ![Pi/Duino](https://raw.githubusercontent.com/MegaMosquito/aardvark/master/piduino.png)
 
