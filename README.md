@@ -12,7 +12,7 @@ If you don't already have the required development tools installed on your Raspb
 
 Procedure:
 1. connect your Arduino to your Raspberry pi using a USB cable as usual
-2. install docker on your Raspberry Pi (install `curl` if needed, then, `curl -sSL https://get.docker.com/ | sh`)
+2. install docker on your Raspberry Pi (install `curl` if needed, then, `curl -sSL https://get.docker.com/ | sh`, and then follow its advice to give yourself access to `docker` without `sudo`, by running `sudo usermod -aG docker pi` then exit the shell and `ssh` in again)
 3. install `git` if needed, and clone this repo (`git clone https://github.com/MegaMosquito/aardvark.git`)
 4. cd into the resulting `aardvark` diectory, install `make` if needed, and build the container (`make`)
 5. run the container in "dev" mode (`make dev`)
